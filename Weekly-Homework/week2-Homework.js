@@ -2,9 +2,9 @@ const pizzaPlace = "dominos";
 
 let numberOfToppings = 9;
 
-typeof pizzaPlace; //String
+console.log(typeof pizzaPlace); //String
 
-typeof numberOfToppings; //number
+console.log(typeof numberOfToppings); //number
 
 
 let greeting = `"Hello, this is ${pizzaPlace}," I said, "We have ${numberOfToppings} toppings to choose from!"`;
