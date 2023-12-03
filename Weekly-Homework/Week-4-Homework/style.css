@@ -1,0 +1,122 @@
+.column1 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+
+}
+
+
+
+.column2 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.column1Text {
+  float: left;
+  width: 24%;
+  padding: 10px;
+
+}
+
+.column2Text {
+  float: left;
+  width: 24%;
+  padding: 10px;
+
+}
+
+.column3 {
+  float: left;
+  width: 40%;
+  padding: 5px;
+
+}
+
+.rowSteam::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  color: rgb(14, 14, 59);
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(188, 4, 4);
+
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 14, 59);
+  font-size: medium;
+  font-style: italic;
+
+
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(188, 4, 4);
+  font-size: medium;
+  font-style: italic;
+
+
+}
+
+
+body {
+
+background-color: rgb(240, 252, 255);
+}
+
+
+header{
+  /* background-color: rgb(0, 54, 136); */
+  padding-top: 20px;
+}
+
+
+
+.All{
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+#Races{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(43, 171, 226);
+}
+
+#Classes{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(14, 14, 59);
+}
+
+footer div{
+  padding-top: 300px;
+  padding-bottom: 300px;
+
+}
