@@ -40,7 +40,7 @@ img {
 
 }
 
-#pCareedImg{
+#pCareerImg{
   margin: auto;
   padding-top: 15px;
   max-width: 500px;
@@ -84,4 +84,65 @@ div {
 
 #achievements{
   list-style-position: inside;
+}
+
+@media (max-width: 376px){
+
+  #eCareerImg {
+    margin: auto;
+    padding-top: 10px;
+    max-width: 200px;
+
+  }
+
+  #pCareerImg{
+    margin: auto;
+    padding-top: 10px;
+    max-width: 200px;
+
+  }
+
+  #actingImg{
+    margin: auto;
+    padding-top: 10px;
+    max-width: 200px;
+
+  }
+
+
+  body {
+    text-align: center;
+    font-size: 14px;
+    max-width: 300pxpx;
+
+    margin: auto;
+
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+
+  div {
+    border: 2px solid burlywood;
+    margin: 30px;
+    padding: 20px;
+
+
+
+  }
+
+  #top {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  }
+
+
+
 }
