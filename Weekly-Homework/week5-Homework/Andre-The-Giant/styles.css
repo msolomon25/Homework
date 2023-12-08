@@ -1,0 +1,87 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+  max-width: 1000px;
+
+  margin: auto;
+
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+
+  margin: auto;
+
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#introPic{
+  height: 50%;
+  width: 50%;
+
+}
+
+#eCareerImg {
+  margin: auto;
+  padding-top: 15px;
+  max-width: 500px;
+
+}
+
+#pCareedImg{
+  margin: auto;
+  padding-top: 15px;
+  max-width: 500px;
+
+}
+
+#actingImg{
+  margin: auto;
+  padding-top: 15px;
+  max-width: 500px;
+
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+
+  padding: 30px;
+
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: right;
+  justify-content: center;
+}
+#bio > li {
+  padding: 2px;
+  margin: auto;
+
+  list-style-position: inside;
+
+}
+
+#pro {
+  width: auto;
+}
+
+#achievements{
+  list-style-position: inside;
+}
