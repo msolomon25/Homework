@@ -86,7 +86,7 @@ div {
   list-style-position: inside;
 }
 
-@media (max-width: 376px){
+@media (max-width: 375px){
 
   #eCareerImg {
     margin: auto;
